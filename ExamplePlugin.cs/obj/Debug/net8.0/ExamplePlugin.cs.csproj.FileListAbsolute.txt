@@ -1,0 +1,15 @@
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\bin\Debug\net8.0\ExamplePlugin.cs.deps.json
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\bin\Debug\net8.0\ExamplePlugin.cs.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\bin\Debug\net8.0\ExamplePlugin.cs.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\bin\Debug\net8.0\AutomationPlatform.PluginContracts.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\bin\Debug\net8.0\AutomationPlatform.PluginContracts.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.csproj.AssemblyReference.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.AssemblyInfoInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.AssemblyInfo.cs
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.csproj.CoreCompileInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExampleP.84911594.Up2Date
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\refint\ExamplePlugin.cs.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ExamplePlugin.cs.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\ExamplePlugin.cs\obj\Debug\net8.0\ref\ExamplePlugin.cs.dll

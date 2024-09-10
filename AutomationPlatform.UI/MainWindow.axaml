@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:AutomationPlatform.UI.ViewModels"
+        xmlns:pc="clr-namespace:AutomationPlatform.PluginContracts;assembly=AutomationPlatform.PluginContracts"
+        x:Class="AutomationPlatform.UI.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Title="MainWindow"
+        Width="800" Height="450">
+
+  <StackPanel>
+    <!-- ListBox to display plugins -->
+    <ListBox ItemsSource="{Binding Plugins}">
+      <ListBox.ItemTemplate>
+        <!-- We need to set the x:DataType here explicitly -->
+        <DataTemplate x:DataType="pc:IAutomationPlugin" x:CompileBindings="False">
+          <StackPanel Orientation="Horizontal" Spacing="10">
+            <!-- Display the plugin's Name -->
+            <TextBlock Text="{Binding Name}" />
+
+            <!-- Run button to execute the plugin -->
+            <Button Content="Run"
+                    Command="{Binding DataContext.ExecutePluginCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                    CommandParameter="{Binding}" />
+
+            <!-- Configure button to configure the plugin -->
+            <Button Content="Configure"
+                    Command="{Binding DataContext.ConfigurePluginCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                    CommandParameter="{Binding}" />
+          </StackPanel>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+    <TextBlock Text="{Binding Plugins.Count}" />
+  </StackPanel>
+</Window>

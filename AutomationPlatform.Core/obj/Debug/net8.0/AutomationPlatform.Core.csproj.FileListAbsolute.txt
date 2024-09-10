@@ -1,0 +1,15 @@
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\bin\Debug\net8.0\AutomationPlatform.Core.deps.json
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\bin\Debug\net8.0\AutomationPlatform.Core.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\bin\Debug\net8.0\AutomationPlatform.Core.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\bin\Debug\net8.0\AutomationPlatform.PluginContracts.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\bin\Debug\net8.0\AutomationPlatform.PluginContracts.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.csproj.AssemblyReference.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.AssemblyInfoInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.AssemblyInfo.cs
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.csproj.CoreCompileInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\Automati.71940C55.Up2Date
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\refint\AutomationPlatform.Core.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\AutomationPlatform.Core.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.Core\obj\Debug\net8.0\ref\AutomationPlatform.Core.dll
