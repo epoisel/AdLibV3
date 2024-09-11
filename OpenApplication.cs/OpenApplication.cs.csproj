@@ -1,10 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <UseWPF>false</UseWPF>
+    <UseWindowsForms>false</UseWindowsForms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Avalonia core UI package -->
+    <PackageReference Include="Avalonia" Version="11.0.0" />
+
+    <!-- ReactiveUI support (optional) -->
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AutomationPlatform.PluginContracts\AutomationPlatform.PluginContracts.csproj" />

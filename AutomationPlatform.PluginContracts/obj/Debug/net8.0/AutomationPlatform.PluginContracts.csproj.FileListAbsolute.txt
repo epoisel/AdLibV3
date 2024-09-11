@@ -5,6 +5,7 @@ C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginCon
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\AutomationPlatform.PluginContracts.AssemblyInfoInputs.cache
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\AutomationPlatform.PluginContracts.AssemblyInfo.cs
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\AutomationPlatform.PluginContracts.csproj.CoreCompileInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\AutomationPlatform.PluginContracts.sourcelink.json
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\AutomationPlatform.PluginContracts.dll
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\refint\AutomationPlatform.PluginContracts.dll
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Debug\net8.0\AutomationPlatform.PluginContracts.pdb

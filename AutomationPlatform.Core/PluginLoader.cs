@@ -1,15 +1,11 @@
 ﻿using AutomationPlatform.PluginContracts;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
 
 namespace AutomationPlatform.Core
 {
     public class PluginLoader
     {
-        public PluginLoader() { }  // Ensure a default constructor
+        public PluginLoader() { }
 
         public IEnumerable<IAutomationPlugin> LoadPlugins(string path)
         {
@@ -42,6 +38,17 @@ namespace AutomationPlatform.Core
             }
 
             return plugins;
+        }
+
+        // Additional method to load and return UIs
+        public object? GetPluginUI(IAutomationPlugin plugin)
+        {
+            if (plugin is IAutomationPluginWithUI pluginWithUI)
+            {
+                return pluginWithUI.GetPluginUI();
+            }
+
+            return null; // No UI for this plugin
         }
     }
 }

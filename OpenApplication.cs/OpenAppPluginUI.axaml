@@ -1,0 +1,11 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="OpenApplication.OpenAppPluginUI">
+
+  <StackPanel>
+    <TextBlock Text="Select an Application" />
+    <TextBox Name="FilePathTextBox" Width="300" IsReadOnly="True"/>
+    <Button Content="Browse" Click="OnBrowseClick" Width="100"/>
+  </StackPanel>
+
+</UserControl>

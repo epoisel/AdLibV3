@@ -4,32 +4,33 @@
         xmlns:pc="clr-namespace:AutomationPlatform.PluginContracts;assembly=AutomationPlatform.PluginContracts"
         x:Class="AutomationPlatform.UI.MainWindow"
         x:DataType="vm:MainViewModel"
-        Title="MainWindow"
+        Title="Automation Platform"
         Width="800" Height="450">
 
-  <StackPanel>
+  <StackPanel Spacing="10">
     <!-- ListBox to display plugins -->
-    <ListBox ItemsSource="{Binding Plugins}">
+    <ListBox ItemsSource="{Binding Plugins}" SelectedItem="{Binding SelectedPlugin}">
       <ListBox.ItemTemplate>
-        <!-- We need to set the x:DataType here explicitly -->
-        <DataTemplate x:DataType="pc:IAutomationPlugin" x:CompileBindings="False">
+        <DataTemplate x:DataType="pc:IAutomationPlugin">
           <StackPanel Orientation="Horizontal" Spacing="10">
             <!-- Display the plugin's Name -->
             <TextBlock Text="{Binding Name}" />
 
-            <!-- Run button to execute the plugin -->
-            <Button Content="Run"
-                    Command="{Binding DataContext.ExecutePluginCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                    CommandParameter="{Binding}" />
+            <!-- Button to execute the plugin -->
+            <Button Content="Run" Click="OnRunPluginClick" />
 
-            <!-- Configure button to configure the plugin -->
-            <Button Content="Configure"
-                    Command="{Binding DataContext.ConfigurePluginCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                    CommandParameter="{Binding}" />
+            <!-- Button to configure the plugin -->
+            <Button Content="Configure" Click="OnConfigurePluginClick" />
           </StackPanel>
         </DataTemplate>
       </ListBox.ItemTemplate>
     </ListBox>
+
+    <!-- Placeholder to dynamically display the plugin's UI -->
+    <ContentControl Content="{Binding PluginUI}" />
+
+    <!-- Display total count of loaded plugins -->
+    <TextBlock Text="Total Plugins Loaded: " />
     <TextBlock Text="{Binding Plugins.Count}" />
   </StackPanel>
 </Window>

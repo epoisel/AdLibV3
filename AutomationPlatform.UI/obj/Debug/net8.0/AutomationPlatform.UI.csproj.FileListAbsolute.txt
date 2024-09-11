@@ -74,6 +74,7 @@ C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\De
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\AutomationPlatform.UI.AssemblyInfoInputs.cache
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\AutomationPlatform.UI.AssemblyInfo.cs
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\AutomationPlatform.UI.csproj.CoreCompileInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\AutomationPlatform.UI.sourcelink.json
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\Avalonia\AutomationPlatform.UI.dll
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\Avalonia\AutomationPlatform.UI.pdb
 C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.UI\obj\Debug\net8.0\refint\Avalonia\AutomationPlatform.UI.dll

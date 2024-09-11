@@ -1,5 +1,4 @@
 ﻿using AutomationPlatform.PluginContracts;
-using System;
 
 namespace ExamplePlugin
 {

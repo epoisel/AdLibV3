@@ -1,29 +1,46 @@
 ﻿using AutomationPlatform.PluginContracts;
+using System;
 using System.Diagnostics;
+using System.IO;
 
-namespace AutomationPlatform.Core.Plugins
+namespace OpenApplication
 {
-    public class OpenAppPlugin : IAutomationPlugin
+    public class OpenAppPlugin : IAutomationPluginWithUI
     {
-        public string Name => "Open Application Plugin";
         private string? _appPath;
 
-        // Method for setting the app path externally (UI will handle file browsing)
+        public string Name => "Open Application Plugin";
+
+        // Set the application path
         public void SetAppPath(string appPath)
         {
-            _appPath = appPath;
+            if (File.Exists(appPath) && Path.GetExtension(appPath).Equals(".exe", StringComparison.OrdinalIgnoreCase))
+            {
+                _appPath = appPath;
+            }
+            else
+            {
+                throw new ArgumentException("Invalid application path or the file is not an executable.");
+            }
         }
 
+        // Execute the plugin (run the selected application)
         public void Execute()
         {
-            // Launch the selected application
             if (!string.IsNullOrEmpty(_appPath))
             {
-                Process.Start(new ProcessStartInfo
+                try
                 {
-                    FileName = _appPath,
-                    UseShellExecute = true
-                });
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = _appPath,
+                        UseShellExecute = true
+                    });
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine($"Error launching application: {ex.Message}");
+                }
             }
             else
             {
@@ -31,9 +48,15 @@ namespace AutomationPlatform.Core.Plugins
             }
         }
 
+        // Return the custom UI for configuring the plugin, passing the plugin instance to the UI
+        public object GetPluginUI()
+        {
+            return new OpenAppPluginUI(this);  // Pass the plugin instance to the UI
+        }
+
         public void Configure()
         {
-            // Nothing happens here, configuration is handled by the UI
+            // Optional configuration logic
         }
     }
 }

@@ -1,4 +1,6 @@
 using Avalonia.Controls;
+using Avalonia.Interactivity;
+using AutomationPlatform.PluginContracts;
 using AutomationPlatform.UI.ViewModels;
 using AutomationPlatform.Core;
 using Avalonia.Markup.Xaml;
@@ -10,15 +12,32 @@ namespace AutomationPlatform.UI
         public MainWindow()
         {
             InitializeComponent();
-            // Ensure DataContext is set correctly here
-            var pluginLoader = new PluginLoader();
-            var viewModel = new MainViewModel(pluginLoader);
-            DataContext = viewModel;  // Explicitly set the ViewModel here
+            DataContext = new MainViewModel(new PluginLoader());
         }
 
         private void InitializeComponent()
         {
-            AvaloniaXamlLoader.Load(this);  // This ensures the XAML is loaded
+            AvaloniaXamlLoader.Load(this);
+        }
+
+        // Event handler for running the plugin
+        private void OnRunPluginClick(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (MainViewModel)DataContext;
+            if (viewModel.SelectedPlugin != null)
+            {
+                viewModel.SelectedPlugin.Execute();
+            }
+        }
+
+        // Event handler for configuring the plugin
+        private void OnConfigurePluginClick(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (MainViewModel)DataContext;
+            if (viewModel.SelectedPlugin != null)
+            {
+                viewModel.ConfigurePlugin(viewModel.SelectedPlugin);
+            }
         }
     }
 }

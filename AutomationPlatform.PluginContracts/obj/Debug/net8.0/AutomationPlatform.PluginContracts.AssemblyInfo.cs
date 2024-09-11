@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutomationPlatform.PluginContracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5c2efa3b3d74dfdefb91b3becf25b25621f1d21")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutomationPlatform.PluginContracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutomationPlatform.PluginContracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

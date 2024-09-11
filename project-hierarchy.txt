@@ -4,11 +4,7 @@ AutomationPlatform
 │  │  ├─ DesignTimeBuild
 │  │  │  └─ .dtbcache.v2
 │  │  ├─ FileContentIndex
-│  │  │  ├─ 08b50e76-dbf8-44b9-aee9-1e193758f700.vsidx
-│  │  │  ├─ 2f011fb8-58d8-4684-90c9-b082c9e07b20.vsidx
-│  │  │  ├─ 3a9289db-5008-40ee-9bd2-63a77ea3c442.vsidx
-│  │  │  ├─ c1aae175-8278-4c57-8668-0edcd5fa24f5.vsidx
-│  │  │  └─ fddff430-a167-4cbe-8c95-95aa612b2623.vsidx
+│  │  │  └─ 810d448f-c7a6-4bae-a161-4c2c544ca626.vsidx
 │  │  └─ v17
 │  │     ├─ .futdcache.v2
 │  │     ├─ .suo
@@ -24,19 +20,38 @@ AutomationPlatform
 │  ├─ PluginLoader.cs
 │  └─ Plugins
 │     ├─ ExamplePlugin.cs
+│     ├─ ExamplePlugin.cs.dll
+│     ├─ OpenApplication.cs.dll
 │     └─ OpennAppPlugin.cs
 ├─ AutomationPlatform.PluginContracts
 │  ├─ AutomationPlatform.PluginContracts.csproj
 │  ├─ Class1.cs
-│  └─ IAutomationPlugin.cs
+│  ├─ IAutomationPlugin.cs
+│  └─ IConfigurablePlugin.cs
 ├─ AutomationPlatform.sln
-└─ AutomationPlatform.UI
-   ├─ App.axaml
-   ├─ App.axaml.cs
-   ├─ app.manifest
-   ├─ AutomationPlatform.UI.csproj
-   ├─ MainWindow.axaml
-   ├─ MainWindow.axaml.cs
-   ├─ Program.cs
-   └─ ViewModels
-      └─ MainVeiwModel.cs
+├─ AutomationPlatform.UI
+│  ├─ App.axaml
+│  ├─ App.axaml.cs
+│  ├─ app.manifest
+│  ├─ AutomationPlatform.UI.csproj
+│  ├─ MainWindow.axaml
+│  ├─ MainWindow.axaml.cs
+│  ├─ Program.cs
+│  └─ ViewModels
+│     └─ MainVeiwModel.cs
+├─ ExamplePlugin.cs
+│  ├─ Class1.cs
+│  ├─ ExamplePlugin.cs
+│  └─ ExamplePlugin.cs.csproj
+├─ OpenApplication.cs
+│  ├─ Class1.cs
+│  ├─ OpenApplication.cs.csproj
+│  └─ OpennAppPlugin.cs
+├─ Plugins
+│  ├─ Class1.cs
+│  ├─ Plugins
+│  │  ├─ ExamplePlugin.cs
+│  │  └─ OpennAppPlugin.cs
+│  └─ Plugins.csproj
+├─ project-hierarchy.txt
+└─ README.md
