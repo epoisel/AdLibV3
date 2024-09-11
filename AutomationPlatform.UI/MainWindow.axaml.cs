@@ -20,23 +20,43 @@ namespace AutomationPlatform.UI
             AvaloniaXamlLoader.Load(this);
         }
 
-        // Event handler for running the plugin
-        private void OnRunPluginClick(object sender, RoutedEventArgs e)
+        // Event handler for adding plugin to the workspace
+        private void OnAddToWorkspaceClick(object sender, RoutedEventArgs e)
         {
             var viewModel = (MainViewModel)DataContext;
             if (viewModel.SelectedPlugin != null)
             {
-                viewModel.SelectedPlugin.Execute();
+                viewModel.AddPluginToWorkspace(viewModel.SelectedPlugin);
             }
         }
 
-        // Event handler for configuring the plugin
-        private void OnConfigurePluginClick(object sender, RoutedEventArgs e)
+        // Event handler for configuring plugin in the workspace
+        private void OnConfigureWorkspacePluginClick(object sender, RoutedEventArgs e)
         {
             var viewModel = (MainViewModel)DataContext;
-            if (viewModel.SelectedPlugin != null)
+            if (viewModel.SelectedWorkspacePlugin != null)
             {
-                viewModel.ConfigurePlugin(viewModel.SelectedPlugin);
+                viewModel.ConfigurePlugin(viewModel.SelectedWorkspacePlugin);
+            }
+        }
+
+        // Event handler for removing plugin from the workspace
+        private void OnRemoveFromWorkspaceClick(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (MainViewModel)DataContext;
+            if (viewModel.SelectedWorkspacePlugin != null)
+            {
+                viewModel.RemovePluginFromWorkspace(viewModel.SelectedWorkspacePlugin);
+            }
+        }
+
+        // Event handler for running the selected plugin in the workspace
+        private void OnRunWorkspacePluginClick(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (MainViewModel)DataContext;
+            if (viewModel.SelectedWorkspacePlugin != null)
+            {
+                viewModel.RunPlugin(viewModel.SelectedWorkspacePlugin);
             }
         }
     }

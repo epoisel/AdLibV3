@@ -5,32 +5,56 @@
         x:Class="AutomationPlatform.UI.MainWindow"
         x:DataType="vm:MainViewModel"
         Title="Automation Platform"
-        Width="800" Height="450">
+        Width="1200" Height="800">
 
-  <StackPanel Spacing="10">
-    <!-- ListBox to display plugins -->
-    <ListBox ItemsSource="{Binding Plugins}" SelectedItem="{Binding SelectedPlugin}">
-      <ListBox.ItemTemplate>
-        <DataTemplate x:DataType="pc:IAutomationPlugin">
-          <StackPanel Orientation="Horizontal" Spacing="10">
-            <!-- Display the plugin's Name -->
-            <TextBlock Text="{Binding Name}" />
+  <!-- Define a grid with three columns -->
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="1*" />
+      <!-- Toolbox -->
+      <ColumnDefinition Width="2*" />
+      <!-- Workspace -->
+      <ColumnDefinition Width="1*" />
+      <!-- Configuration Area -->
+    </Grid.ColumnDefinitions>
 
-            <!-- Button to execute the plugin -->
-            <Button Content="Run" Click="OnRunPluginClick" />
+    <!-- First Column: Toolbox (List of Available Plugins) -->
+    <StackPanel Grid.Column="0" Spacing="10" Margin="10" Background="DarkGray">
+      <TextBlock Text="Toolbox" FontSize="12" FontWeight="Bold" Background="WhiteSmoke" />
+      <ListBox ItemsSource="{Binding Plugins}" SelectedItem="{Binding SelectedPlugin}" Margin="10">
+        <ListBox.ItemTemplate>
+          <DataTemplate x:DataType="pc:IAutomationPlugin">
+            <StackPanel Orientation="Horizontal" Spacing="10">
+              <TextBlock Text="{Binding Name}" />
+              <Button Content=">" Click="OnAddToWorkspaceClick" CommandParameter="{Binding}" />
+            </StackPanel>
+          </DataTemplate>
+        </ListBox.ItemTemplate>
+      </ListBox>
+    </StackPanel>
 
-            <!-- Button to configure the plugin -->
-            <Button Content="Configure" Click="OnConfigurePluginClick" />
-          </StackPanel>
-        </DataTemplate>
-      </ListBox.ItemTemplate>
-    </ListBox>
+    <!-- Second Column: Workspace (Organize Automations) -->
+    <StackPanel Grid.Column="1" Spacing="20" Margin="10">
+      <TextBlock Text="Workspace" FontSize="18" FontWeight="Bold" />
+      <ListBox ItemsSource="{Binding WorkspacePlugins}" SelectedItem="{Binding SelectedWorkspacePlugin}">
+        <ListBox.ItemTemplate>
+          <DataTemplate x:DataType="pc:IAutomationPlugin">
+            <StackPanel Orientation="Vertical" Spacing="10">
+              <TextBlock Text="{Binding Name}" />
+              <Button Content="Configure" Click="OnConfigureWorkspacePluginClick" CommandParameter="{Binding}" />
+              <Button Content="Remove" Click="OnRemoveFromWorkspaceClick" CommandParameter="{Binding}" />
+            </StackPanel>
+          </DataTemplate>
+        </ListBox.ItemTemplate>
+      </ListBox>
+      <!-- Run button wired to the OnRunWorkspacePluginClick event -->
+      <Button Content="Run" Click="OnRunWorkspacePluginClick" IsEnabled="{Binding SelectedWorkspacePlugin}" />
+    </StackPanel>
 
-    <!-- Placeholder to dynamically display the plugin's UI -->
-    <ContentControl Content="{Binding PluginUI}" />
-
-    <!-- Display total count of loaded plugins -->
-    <TextBlock Text="Total Plugins Loaded: " />
-    <TextBlock Text="{Binding Plugins.Count}" />
-  </StackPanel>
+    <!-- Third Column: Configuration Area (Configure Selected Plugin) -->
+    <StackPanel Grid.Column="2" Spacing="5">
+      <TextBlock Text="Configuration" FontSize="18" FontWeight="Bold" />
+      <ContentControl Content="{Binding PluginUI}" />
+    </StackPanel>
+  </Grid>
 </Window>

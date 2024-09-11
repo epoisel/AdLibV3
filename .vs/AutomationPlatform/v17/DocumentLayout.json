@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.ui\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|solutionrelative:automationplatform.ui\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.ui\\viewmodels\\mainveiwmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|solutionrelative:automationplatform.ui\\viewmodels\\mainveiwmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.plugincontracts\\iautomationpluginwithui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|solutionrelative:automationplatform.plugincontracts\\iautomationpluginwithui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.ui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|solutionrelative:automationplatform.ui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.plugincontracts\\iautomationplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|solutionrelative:automationplatform.plugincontracts\\iautomationplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19BC4503-B7FA-482E-B108-6343E5A84ED1}|OpenApplication.cs\\OpenApplication.cs.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\openapplication.cs\\opennappplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19BC4503-B7FA-482E-B108-6343E5A84ED1}|OpenApplication.cs\\OpenApplication.cs.csproj|solutionrelative:openapplication.cs\\opennappplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +31,8 @@
       "RelativeMoniker": "D:0:0:{19BC4503-B7FA-482E-B108-6343E5A84ED1}|OpenApplication.cs\\OpenApplication.cs.csproj|solutionrelative:openapplication.cs\\openapppluginui.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.ui\\viewmodels\\mainveiwmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|solutionrelative:automationplatform.ui\\viewmodels\\mainveiwmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.ui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|solutionrelative:automationplatform.ui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.ui\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{9EF62235-C76E-4B52-8BB0-F867BF58AD0A}|AutomationPlatform.UI\\AutomationPlatform.UI.csproj|solutionrelative:automationplatform.ui\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19BC4503-B7FA-482E-B108-6343E5A84ED1}|OpenApplication.cs\\OpenApplication.cs.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\openapplication.cs\\openapplication.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{19BC4503-B7FA-482E-B108-6343E5A84ED1}|OpenApplication.cs\\OpenApplication.cs.csproj|solutionrelative:openapplication.cs\\openapplication.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.plugincontracts\\iautomationplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|solutionrelative:automationplatform.plugincontracts\\iautomationplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.plugincontracts\\iautomationpluginwithui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|solutionrelative:automationplatform.plugincontracts\\iautomationpluginwithui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEA4D8A1-19D5-4439-BD59-8CF46C999046}|AutomationPlatform.PluginContracts\\AutomationPlatform.PluginContracts.csproj|c:\\users\\epois\\documents\\adlib-2\\automationplatform\\automationplatform.plugincontracts\\iconfigurableplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,66 +77,15 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 312,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IConfigurablePlugin.cs",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
-              "RelativeDocumentMoniker": "AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
-              "RelativeToolTip": "AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T09:50:46.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OpenApplication.cs",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenApplication.cs.csproj",
-              "RelativeDocumentMoniker": "OpenApplication.cs\\OpenApplication.cs.csproj",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenApplication.cs.csproj",
-              "RelativeToolTip": "OpenApplication.cs\\OpenApplication.cs.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-11T09:29:18.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OpenAppPluginUI.axaml",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml",
-              "RelativeDocumentMoniker": "OpenApplication.cs\\OpenAppPluginUI.axaml",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml",
-              "RelativeToolTip": "OpenApplication.cs\\OpenAppPluginUI.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-11T09:25:43.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OpenAppPluginUI.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
-              "RelativeDocumentMoniker": "OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
-              "RelativeToolTip": "OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T09:25:42.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "IAutomationPluginWithUI.cs",
               "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IAutomationPluginWithUI.cs",
               "RelativeDocumentMoniker": "AutomationPlatform.PluginContracts\\IAutomationPluginWithUI.cs",
@@ -149,6 +98,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "AutomationPlatform.UI\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml",
+              "RelativeToolTip": "AutomationPlatform.UI\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T14:41:42.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AutomationPlatform.UI\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml.cs",
+              "RelativeToolTip": "AutomationPlatform.UI\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:55:46.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainVeiwModel.cs",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
+              "RelativeDocumentMoniker": "AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
+              "RelativeToolTip": "AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T16:07:05.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAutomationPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
+              "RelativeDocumentMoniker": "AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
+              "RelativeToolTip": "AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T15:05:17.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -157,18 +157,65 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAIwTAAAAAAAAAAAQwKkTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-09-11T09:04:38.382Z",
+              "WhenOpened": "2024-09-11T09:04:38.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OpenAppPluginUI.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
+              "RelativeDocumentMoniker": "OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
+              "RelativeToolTip": "OpenApplication.cs\\OpenAppPluginUI.axaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:25:42.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OpenAppPluginUI.axaml",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml",
+              "RelativeDocumentMoniker": "OpenApplication.cs\\OpenAppPluginUI.axaml",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenAppPluginUI.axaml",
+              "RelativeToolTip": "OpenApplication.cs\\OpenAppPluginUI.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-11T09:25:43.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OpenApplication.cs.csproj",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenApplication.cs.csproj",
+              "RelativeDocumentMoniker": "OpenApplication.cs\\OpenApplication.cs.csproj",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpenApplication.cs.csproj",
+              "RelativeToolTip": "OpenApplication.cs\\OpenApplication.cs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T09:29:18.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "IConfigurablePlugin.cs",
+              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
+              "RelativeDocumentMoniker": "AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
+              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
+              "RelativeToolTip": "AutomationPlatform.PluginContracts\\IConfigurablePlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:50:46.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "OpennAppPlugin.cs",
               "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpennAppPlugin.cs",
               "RelativeDocumentMoniker": "OpenApplication.cs\\OpennAppPlugin.cs",
               "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\OpenApplication.cs\\OpennAppPlugin.cs",
               "RelativeToolTip": "OpenApplication.cs\\OpennAppPlugin.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T16:12:59.149Z",
               "EditorCaption": ""
@@ -183,21 +230,7 @@
               "RelativeToolTip": "OpenApplication.cs\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:12:50.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainVeiwModel.cs",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
-              "RelativeDocumentMoniker": "AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
-              "RelativeToolTip": "AutomationPlatform.UI\\ViewModels\\MainVeiwModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:07:05.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T16:12:50.493Z"
             },
             {
               "$type": "Document",
@@ -222,8 +255,7 @@
               "RelativeToolTip": "ExamplePlugin.cs\\ExamplePlugin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:06:05.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T16:06:05.4Z"
             },
             {
               "$type": "Document",
@@ -235,8 +267,7 @@
               "RelativeToolTip": "ExamplePlugin.cs\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:05:59.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T16:05:59.498Z"
             },
             {
               "$type": "Document",
@@ -248,21 +279,7 @@
               "RelativeToolTip": "AutomationPlatform.Core\\PluginLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:05:22.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAutomationPlugin.cs",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
-              "RelativeDocumentMoniker": "AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
-              "RelativeToolTip": "AutomationPlatform.PluginContracts\\IAutomationPlugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:05:17.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:05:22.308Z"
             },
             {
               "$type": "Document",
@@ -274,8 +291,7 @@
               "RelativeToolTip": "AutomationPlatform.Core\\Plugins\\ExamplePlugin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:05:11.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:05:11.413Z"
             },
             {
               "$type": "Document",
@@ -287,33 +303,7 @@
               "RelativeToolTip": "AutomationPlatform.UI\\App.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:00:20.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "AutomationPlatform.UI\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml.cs",
-              "RelativeToolTip": "AutomationPlatform.UI\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA6wCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T14:55:46.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "AutomationPlatform.UI\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\epois\\Documents\\AdLib-2\\AutomationPlatform\\AutomationPlatform.UI\\MainWindow.axaml",
-              "RelativeToolTip": "AutomationPlatform.UI\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-10T14:41:42.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:00:20.952Z"
             }
           ]
         }
