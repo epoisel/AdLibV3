@@ -30,7 +30,7 @@ namespace OpenApplication
                 AllowMultiple = false,
                 Filters = new List<FileDialogFilter>
                 {
-                    new FileDialogFilter { Name = "Applications", Extensions = { "exe" } }
+                    new FileDialogFilter { Name = "All Files", Extensions = { "*" } },
                 }
             };
 

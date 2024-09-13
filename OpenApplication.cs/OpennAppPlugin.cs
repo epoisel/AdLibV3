@@ -7,22 +7,23 @@ namespace OpenApplication
 {
     public class OpenAppPlugin : IAutomationPluginWithUI
     {
-        private string? _appPath;
+        private string? _appPath;  // Keeping the original appPath
 
         public string Name => "Open Application Plugin";
 
-        // Set the application path
+        // Set the application path or file path (supports all file types)
         public void SetAppPath(string appPath)
         {
-            if (File.Exists(appPath) && Path.GetExtension(appPath).Equals(".exe", StringComparison.OrdinalIgnoreCase))
+            if (File.Exists(appPath))
             {
                 _appPath = appPath;
             }
             else
             {
-                throw new ArgumentException("Invalid application path or the file is not an executable.");
+                throw new ArgumentException("Invalid application or file path, or the file does not exist.");
             }
         }
+
 
         // Execute the plugin (run the selected application)
         public void Execute()
