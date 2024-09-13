@@ -1,0 +1,12 @@
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\bin\Release\net8.0\AutomationPlatform.PluginContracts.deps.json
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\bin\Release\net8.0\AutomationPlatform.PluginContracts.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\bin\Release\net8.0\AutomationPlatform.PluginContracts.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.AssemblyInfoInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.AssemblyInfo.cs
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.csproj.CoreCompileInputs.cache
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.sourcelink.json
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\refint\AutomationPlatform.PluginContracts.dll
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\AutomationPlatform.PluginContracts.pdb
+C:\Users\epois\Documents\AdLib-2\AutomationPlatform\AutomationPlatform.PluginContracts\obj\Release\net8.0\ref\AutomationPlatform.PluginContracts.dll

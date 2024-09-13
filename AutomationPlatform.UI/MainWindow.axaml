@@ -26,7 +26,7 @@
           <DataTemplate x:DataType="pc:IAutomationPlugin">
             <StackPanel Orientation="Horizontal" Spacing="10">
               <TextBlock Text="{Binding Name}" />
-              <Button Content=">" Click="OnAddToWorkspaceClick" CommandParameter="{Binding}" />
+              <Button Content="Add" Click="OnAddToWorkspaceClick" CommandParameter="{Binding}" />
             </StackPanel>
           </DataTemplate>
         </ListBox.ItemTemplate>

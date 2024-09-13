@@ -20,43 +20,49 @@ namespace AutomationPlatform.UI
             AvaloniaXamlLoader.Load(this);
         }
 
-        // Event handler for adding plugin to the workspace
+        // Event handler for adding a plugin to the workspace
         private void OnAddToWorkspaceClick(object sender, RoutedEventArgs e)
         {
-            var viewModel = (MainViewModel)DataContext;
-            if (viewModel.SelectedPlugin != null)
+            // Get the plugin from the CommandParameter
+            var button = (Button)sender;
+            if (button.CommandParameter is IAutomationPlugin plugin)
             {
-                viewModel.AddPluginToWorkspace(viewModel.SelectedPlugin);
+                var viewModel = (MainViewModel)DataContext;
+                viewModel.AddPluginToWorkspace(plugin);
             }
         }
 
-        // Event handler for configuring plugin in the workspace
+        // Event handler for configuring a plugin in the workspace
         private void OnConfigureWorkspacePluginClick(object sender, RoutedEventArgs e)
         {
-            var viewModel = (MainViewModel)DataContext;
-            if (viewModel.SelectedWorkspacePlugin != null)
+            // Get the plugin from the CommandParameter
+            var button = (Button)sender;
+            if (button.CommandParameter is IAutomationPlugin plugin)
             {
-                viewModel.ConfigurePlugin(viewModel.SelectedWorkspacePlugin);
+                var viewModel = (MainViewModel)DataContext;
+                viewModel.ConfigurePlugin(plugin);
             }
         }
 
-        // Event handler for removing plugin from the workspace
+        // Event handler for removing a plugin from the workspace
         private void OnRemoveFromWorkspaceClick(object sender, RoutedEventArgs e)
         {
-            var viewModel = (MainViewModel)DataContext;
-            if (viewModel.SelectedWorkspacePlugin != null)
+            // Get the plugin from the CommandParameter
+            var button = (Button)sender;
+            if (button.CommandParameter is IAutomationPlugin plugin)
             {
-                viewModel.RemovePluginFromWorkspace(viewModel.SelectedWorkspacePlugin);
+                var viewModel = (MainViewModel)DataContext;
+                viewModel.RemovePluginFromWorkspace(plugin);
             }
         }
 
-        // Event handler for running the selected plugin in the workspace
+        // Event handler for running all plugins in the workspace
         private void OnRunWorkspacePluginClick(object sender, RoutedEventArgs e)
         {
             var viewModel = (MainViewModel)DataContext;
-            if (viewModel.SelectedWorkspacePlugin != null)
+            foreach (var plugin in viewModel.WorkspacePlugins)
             {
-                viewModel.RunPlugin(viewModel.SelectedWorkspacePlugin);
+                viewModel.RunPlugin(plugin);
             }
         }
     }
